@@ -32,3 +32,11 @@ nm-sstp-service.name
 nm-sstp.desktop
 src/nm-sstp-pppd-service-glue.h
 src/nm-sstp-service
+
+debian/files
+debian/*.log
+debian/*.substvars
+debian/network-manager-sstp-gnome/
+debian/network-manager-sstp/
+debian/tmp/
+po/NetworkManager-sstp.pot
