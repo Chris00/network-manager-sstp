@@ -1,6 +1,5 @@
-INCLUDES = -I${top_srcdir}
-
 AM_CPPFLAGS =							\
+	-I${top_srcdir}                                         \
 	$(DBUS_GLIB_CFLAGS)						\
 	$(GTHREAD_CFLAGS)					\
 	$(NM_CFLAGS)				\
